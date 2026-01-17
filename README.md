@@ -1,1 +1,1 @@
-###Todos os exercícios que estou aprendendo sobre JavaScript
+Todos os exercícios que estou aprendendo sobre JavaScript
