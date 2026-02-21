@@ -18,6 +18,10 @@ let iniciar_sistema = confirm("Bem-Vindo - Deseja iniciar Sistema de Cadastro?")
 
 if(iniciar_sistema == true){
   ficha.nome = prompt("Digite o nome da pessoa ou FIM para encerrar o cadastro")
+
+  if(ficha.nome == "FIM" || ficha.nome == "fim" || ficha.nome == "Fim" ){
+    document.writeln("<h1>Você encerrou o sistema</h1>")
+  }
   
   while(ficha.nome != "FIM" && ficha.nome != "fim" && ficha.nome && "Fim" ){
     ficha.idade = prompt("Digite a idade da pessoa")
@@ -40,14 +44,12 @@ if(iniciar_sistema == true){
     ficha.telefone[2] = prompt("Digite o terceiro telefone para contato com a pessoa")
     ficha.nome = prompt("Digite o nome da pessoa ou FIM para encerrar o cadastro")
     
-    if(ficha.nome == "FIM" && ficha.nome == "fim" && ficha.nome == "Fim" ){
+    if(ficha.nome == "FIM" || ficha.nome == "fim" || ficha.nome == "Fim" ){
       document.writeln("<h1>Você encerrou o sistema</h1>")
       document.writeln("Dados Cadastrados com Sucesso")
     }
 
   }
-
-  
 
 } else {
   document.writeln("<h1>Sistema Não Iniciado!!!</h1>")
