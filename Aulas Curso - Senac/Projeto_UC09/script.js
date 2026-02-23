@@ -28,7 +28,7 @@ if(iniciar_sistema == true){
     ficha.dataNasc = prompt("Digite a data de nascimento da pessoa")
     ficha.estadoCivil = prompt("Digite o estado civil da pessoa, Casado, solteiro, viúvo")
 
-    if(ficha.estadoCivil != "solteiro"){
+    if(ficha.estadoCivil != "solteiro" && ficha.estadoCivil != "SOLTEIRO" && ficha.estadoCivil != "Solteiro"){
       ficha.nomeConjuge = prompt("Digite o nome do cônjuge da pessoa")
     }
 
