@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criação de Listas</title>
+</head>
+<body>
+    <h1>Criação de Listas</h1>
+    <h3>Lista não ordenada - apresenta seus itens com marcadores</h3>
+    
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+    <hr>
+
+    <h3>Lista não ordenada dentro de outra lista não ordenada</h3>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        
+        <ul>
+            <li>Item 2.1</li>
+            <li>Item 2.2</li>
+        </ul> <!-- Lista não ordenada dentro da outra lista não ordenada -->
+        
+        <li>Item 3</li>
+    </ul>
+    <hr>
+
+    <h3>Lista ordenada - Apresenta seus itens numerados</h3>
+    <ol>
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+        <li>Item D</li>
+    </ol>
+    <hr>
+
+    <h3>Lista ordenada dentro de outra lista ordenada</h3>
+    <ol>
+        <li>Item A</li>
+            <ol>
+                <li>Item B.1</li>
+                <li>Item B.2</li>
+            </ol>
+        <li>Item C</li>
+        <li>Item D</li>
+    </ol>
+    <hr>
+
+    <h3>Lista ordenada - Definindo ponto de partida usando "start"</h3>
+    <ol start="6">
+        <li>Iniciando lista a partir do número 6</li>
+        <li>Item</li>
+        <li>Item</li>
+    </ol>
+    <hr>
+
+    <h3>Lista ordenada em ordem decrescente usando "reversed"</h3>
+    <ol start="10", reversed>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+    </ol>
+    <hr>
+
+    <h3>Lista ordenada - Definindo tipo de numeração usando "type"</h3>
+    <p>Atributo 1 - Apresenta números arábicos 1, 2, 3</p>
+    <ol type="1">
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+    </ol>
+
+    <p>Atributo a - Apresenta números arábicos a, b, c</p>
+    <ol type="a">
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+    </ol>
+
+    <p>Atributo A - Apresenta números arábicos A, B, C</p>
+    <ol type="A">
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+    </ol>
+
+    <p>Atributo i - Apresenta números arábicos i, ii, iii</p>
+    <ol type="i">
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+    </ol>
+
+    <p>Atributo I - Apresenta números arábicos I, II, III</p>
+    <ol type="I">
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+    </ol>
+    <hr>
+
+    <h3>Lista ordenada dentro de outra lista ordenada e definindo seu tipo de numeração</h3>
+    <ol type="I">
+        <li>Item A</li>
+        <ol type="a">
+            <li>Item B.1</li>
+            <li>Item B.2</li>
+        </ol>
+        <li>Item C</li>
+        <li>Item D</li>
+    </ol>
+    <hr>
+
+    <h3>Lista de definição - não utiliza marcadores ou números. 
+        Utilizada para descrever um termo e suas descrições
+    </h3>
+    <dl>
+        <dt>Termo 1</dt>
+            <dd>Descrição A</dd>
+            <dd>Descrição B</dd><br>
+    
+        <dt>Termo 2</dt>
+            <dd>Descrição C</dd><br>
+
+        <dt>Termo 3</dt>
+            <dd>Descrição D</dd>
+            <dd>Descrição E</dd><br>
+    </dl>
+</body>
+</html>
